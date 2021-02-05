@@ -1,10 +1,34 @@
 #include <iostream>
-#include <string>
+#include <string.h>
 #include <vector>
 using namespace std; 
 // Ariel Fernando Reyes Castellanos (11921023)
+	vector<char> letras_unicas(string palabra){
+		vector<char> letras; 
+			for(int i=0; i< palabra.size(); i++){
+				//	letras.push_back(palabra[i]);
+				for(int j=0;i<palabra.size()-1; i++){
+					if(i!=j){
+						letras.push_back(palabra[i]);
+						
+					} else {
+						// aca es por si la letra se repite 
+					}
+					
+					
+					
+				}
+					
+				}
+				
+			
+				
+				
+				return letras; 
+		
+		
+	} 
 int main() {
-	
 	int opc =2;
 	while(opc!=5){
 		
@@ -18,14 +42,22 @@ int main() {
 		
 		
 		switch(opc){
+		
 			case 1:
+				string palabra; 
+				cout<<"Ingrese una palabra: "<<endl; 
+				cin>> palabra; 
+			vector<char> letra; 
+			letra =	letras_unicas(palabra);
+				for(int i =0; i<letra.size(); i++){
+					cout<<"["<<letra[i]<<"]"<<endl; 
+				}
+				
+			
+				
 				break; 
-				case 2:
-					break; 
-					case 3:
-						break; 
-						case 4:
-							break; 
+			
+			
 			
 		}
 		

@@ -1,0 +1,3 @@
+nombre: Ariel Fernando Reyes Castellanos 
+cuente: 11921023
+repositorio: https://github.com/Ariel-Reyes/P3Lab3_ArielReyes
